@@ -1,13 +1,12 @@
-class AppConfig{
-    readonly port: number = 4000
-
+class AppConfig {
+    readonly port: number = 4091;
     readonly dbConfig = {
-        user:'root',
+        user: 'root',
         host: 'localhost',
         port: 3306,
         password: '',
-        database: 'parkings'
-    }
+        database: 'freedom',
+    };
 }
 
-export const appConfig = new AppConfig;
+export const appConfig = new AppConfig();
